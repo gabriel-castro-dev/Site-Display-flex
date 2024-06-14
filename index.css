@@ -1,0 +1,426 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    
+}
+
+body{
+    display: flex;
+    background-color: black;
+}
+
+#TabelaLateral
+{
+    
+    position: sticky;
+    top:0;
+    height: 100vh;
+    width: 80%;
+    background-color: black;
+}
+#Titulo1
+{
+    color: white;
+    margin-left: 35px;
+    padding-top: 35px;
+    font-size: 22px;
+
+
+}
+.palavras
+{
+    color: white;
+    margin-top: 35px;
+    margin-left: 35px;
+    font-size: 12px;
+}
+.palavras2
+{
+    color: white;
+    margin-top: 15px;
+    margin-left: 35px;
+    font-size: 12px;
+}
+#svgfb
+{
+    width: 12px;
+    height: 12px;
+    margin-left: 34px;
+    margin-top: 35px;
+}
+#svgtwt
+{
+    width: 12px;
+    height: 12px;
+    margin-left: 15px;
+    margin-top: 35px;
+}
+#svgInst
+{
+    width: 12px;
+    height: 12px;
+    margin-left: 15px;
+    margin-top: 35px;
+}
+#fundo1
+{
+    background-image: url(img_9.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+   
+    width: 100%;
+    
+}
+#textoFundo p {width: 60%;}
+
+#textoFundo
+{
+    color: white;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   backdrop-filter: brightness(50%);
+}
+
+button{
+    border: 0;
+    font-weight: 600;
+}
+
+#botao-contact{
+    width: 160px;
+    height: 50px;
+    margin-top: 30%;
+    border-radius: 50px;
+    background-color: #df0e62;
+    color: white;
+}
+#WELCOME{
+    font-family: "Oswald", sans-serif;
+    font-weight: 380;
+    font-size: 60px;
+    padding-bottom: 15px;
+}
+#textoLorem
+{
+    font-weight: 300;
+    line-height: 30px;
+}
+#imagens
+{
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.imagem:hover{
+    filter: brightness(50%);
+}
+
+.imagem
+{
+   width: 33%;
+   object-fit: cover;
+   height: 300px;
+}
+#testimonal
+{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    padding-top: 130px;
+}
+#pessoa1
+{
+    border-radius: 85px;
+    object-fit: cover;
+    width: 170px;
+}
+#divpessoas
+{
+    padding-top: 60px;
+    text-align: center;
+}
+#descpessoas
+{
+    text-align: center;
+    
+}
+#Jean
+{
+    
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-top: 30px;
+    color: white;
+}
+
+#botaoesq
+{
+    
+   font-size: 25px;
+    color: white;
+    background-color: rgb(66, 66, 66);
+    height: 6vh;
+    width: 50px;
+    border-radius: 30px;
+}
+#botaodir {
+    font-size: 25px;
+    color: white;
+    background-color: rgb(66, 66, 66);
+    height: 6vh;
+    width: 50px;
+    border-radius: 30px;
+}
+
+#perfil { display: flex;
+justify-content: space-between;
+align-items: flex-end;
+width: 60%;
+margin: auto;}
+
+#perfil svg { fill: white;
+height: 35px;}
+#Lorem2
+{
+    padding: 20px 25%;
+    text-align: center;
+    padding-bottom: 100px;
+}
+#Biografia
+{
+    background-color: #181818;
+    height: 170vh;
+    padding: 10% 20%;
+}
+#titulobio
+{
+    font-size: 50px;
+}
+#pessoa2
+{
+    width: 400px;
+    padding-top: 50px;
+    padding-bottom: 35px;
+}
+#jed
+{
+    font-size: 30px;
+    font-weight: 300;
+}
+#Lorem3
+{
+    padding-top: 15px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #808080;
+}
+.link1
+{
+    color: #df0e62;
+    
+}
+#Fotografo{
+    padding-top: 50px;
+}
+#hFotografo
+{
+    font-size: 30px;
+    font-weight: 300; 
+}
+#lorem4
+{
+    font-weight: 300;
+    padding-top: 15px;
+    line-height: 30px;
+    color: #808080
+}
+
+li{
+    list-style: none;
+
+}
+.check
+{
+    width: 25px;
+    padding-right: 10px;
+}
+#caixa
+{
+    padding-top: 40px;
+    display: flex;
+    
+}
+.lista
+{
+   font-weight: 100;
+   color: #808080 ;
+   padding: 10px 0px;
+   padding-right: 150px;
+}
+#blog
+{
+    height: 250vh;
+    font-size: 10px;
+    display: flex;
+    background-color: black;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: start;
+    color:aliceblue
+}
+
+#blog h1
+{ 
+    margin-top: 15%;
+    margin-left: 22%;
+    font-size: 55px;
+}
+
+#container
+{
+    display: flex;
+}
+
+#blog h1
+{
+    font-family: "Oswald", arial, sans-serif;
+}
+
+#blog img
+{
+    margin-top: 7%;
+    margin-left: 25%;
+    width: 100%;
+    height: 203px;
+    width: 250PX;
+    object-fit: cover;
+    transition: 15;
+    background-attachment: fixed;
+}
+
+#blog h2
+ {
+    font-family: "Oswald", arial, sans-serif;
+    margin-top: 17%;
+    margin-left: 10%;
+    font-size: 20px;
+}
+
+#blog h3 
+{
+    font-family: "Oswald", arial, sans-serif;
+    margin-top: 2%;
+    margin-left: 10%;
+    font-size: 15px;
+    color: rgb(63, 63, 63); 
+}
+
+#vermelho
+{
+    font-family: "Oswald", arial, sans-serif;
+    margin-top: -4%;
+    margin-left: 28%;
+    font-size: 15px;
+    color: rgb(255, 97, 97);
+}
+#blog h4 
+{   
+        margin-top: 5%;
+     margin-left: 10%;
+     font-size: 20px;
+     color: rgb(63, 63, 63);
+}
+
+#SEND{
+    margin-top: 20%;
+
+    height: 350vh;
+    font-size: 10px;
+    width: 100% ;
+    
+    display: flex;
+    background-color: rgb(36, 36, 36);
+    flex-direction: column;
+
+    color:aliceblue
+}
+#SEND h1{
+    margin-top: 20vh;
+    margin-left: 32vh;
+    font-size: 49px;
+}
+#SEND a{
+    margin-top: 10%;
+    margin-left:32vh;
+    display: inline-block;
+    width: 164px;
+    height: 53px;
+    background-color: #df0e62;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 53px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    
+}
+#form{
+    margin-top: 10%;
+    margin-left: 32vh ;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#letterform{
+    margin-top: 10%;
+    font-size: 20px;
+}
+#letterform2{
+    margin-top: 10%;
+    font-size: 20px;
+}
+
+
+#letterform input{
+
+     width: 100vh;
+     border-left: 0;
+     border-right: 0;
+     border-top: 0;
+     background-color: rgb(36, 36, 36);
+    
+}
+
+#letterform2 input{
+
+    width: 50vh;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    background-color: rgb(36, 36, 36);
+   
+}
+
+#letterform MESSAGE input{
+
+    width: 80vh;
+    height: 100vh;
+
+    background-color: rgb(36, 36, 36);
+}
+
+#prim-parte{
+    display: flex;
+    width: 1vh;
+}
